@@ -1,0 +1,22 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp2.1</TargetFramework>
+    <Authors>ErikXu</Authors>
+    <Description>Use .Net Core Generic Service and Quartz to Implement Background Schedule Tasks.</Description>
+    <PackageProjectUrl>https://github.com/ErikXu/Quartz.HostedService</PackageProjectUrl>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    <PackageLicenseUrl>https://github.com/ErikXu/Quartz.HostedService/blob/master/LICENSE</PackageLicenseUrl>
+    <PackageTags>Quartz Hosted Service Generic Host</PackageTags>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.Extensions.Configuration.Binder" Version="2.1.0" />
+    <PackageReference Include="Microsoft.Extensions.Hosting.Abstractions" Version="2.1.0" />
+    <PackageReference Include="Microsoft.Extensions.Logging.Abstractions" Version="2.1.0" />
+    <PackageReference Include="Microsoft.Extensions.Options" Version="2.1.0" />
+    <PackageReference Include="Quartz" Version="3.0.5" />
+    <PackageReference Include="Quartz.Plugins" Version="3.0.5" />
+  </ItemGroup>
+
+</Project>
