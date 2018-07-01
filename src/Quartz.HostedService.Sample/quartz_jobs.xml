@@ -33,7 +33,7 @@
       <cron>
         <name>TestTrigger</name>
         <group>TestGroup</group>
-        <description>测试触发器</description>
+        <description>Test Trigger</description>
         <job-name>TestJob</job-name>
         <job-group>TestGroup</job-group>
         <cron-expression>0/2 * * * * ?</cron-expression>
